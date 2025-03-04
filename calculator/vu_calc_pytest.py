@@ -13,7 +13,7 @@ from unittest.mock import patch
 
 import pytest
 
-from main import calculate, get_operator, main
+from vu_main_solution import calculate, get_operator, main
 
 
 class Message(Enum):
