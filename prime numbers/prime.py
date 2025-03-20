@@ -12,8 +12,8 @@ def is_divisible_by(number, by):
 
 
 def is_prime(number):
-    if number == 2:
-        return True
+    if number < 2:
+        return False
     
     for i in range(2,number):
         if is_divisible_by(number,i) == True:
